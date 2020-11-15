@@ -46,7 +46,7 @@
 					<target>1.8</target>
 					<encoding>UTF-8</encoding>
     				<fork>true</fork>
-					<executable>/Library/java/javaVirtualMachines/jdk1.8.0_271/bin/javac.exe</executable>  
+					<executable>/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/bin/javac</executable>  
 				</configuration>
 			</plugin>
 		</plugins>
