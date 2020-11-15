@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-01T17:42:42 EST" name="Suite1" finished-at="2020-11-01T17:42:58 EST" duration-ms="15392">
+  <suite name="Default suite" duration-ms="21561" started-at="2020-11-14T20:09:05 EST" finished-at="2020-11-14T20:09:27 EST">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:zoopla.uk.my.runner.MyRunner@302c971f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:zoopla.uk.my.runner.MyRunner@23282c25]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2020-11-01T17:42:42 EST" name="Nopackage" finished-at="2020-11-01T17:42:58 EST" duration-ms="15392">
+    <test name="Default test" duration-ms="21561" started-at="2020-11-14T20:09:05 EST" finished-at="2020-11-14T20:09:27 EST">
       <class name="zoopla.uk.my.runner.MyRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:zoopla.uk.my.runner.MyRunner@302c971f]" started-at="2020-11-01T17:42:42 EST" name="setUpClass" finished-at="2020-11-01T17:42:43 EST" duration-ms="274" status="PASS">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:zoopla.uk.my.runner.MyRunner@23282c25]" name="setUpClass" is-config="true" duration-ms="149" started-at="2020-11-14T20:09:05 EST" finished-at="2020-11-14T20:09:05 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:zoopla.uk.my.runner.MyRunner@302c971f]" started-at="2020-11-01T17:42:43 EST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-11-01T17:42:58 EST" duration-ms="14990" status="PASS">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:zoopla.uk.my.runner.MyRunner@23282c25]" name="feature" duration-ms="5470" started-at="2020-11-14T20:09:06 EST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-11-14T20:09:11 EST">
           <params>
             <param index="0">
               <value>
@@ -25,11 +25,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:zoopla.uk.my.runner.MyRunner@302c971f]" started-at="2020-11-01T17:42:58 EST" name="tearDownClass" finished-at="2020-11-01T17:42:58 EST" duration-ms="9" status="PASS">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:zoopla.uk.my.runner.MyRunner@23282c25]" name="feature" duration-ms="15835" started-at="2020-11-14T20:09:11 EST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-11-14T20:09:27 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login function validations]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:zoopla.uk.my.runner.MyRunner@23282c25]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2020-11-14T20:09:27 EST" finished-at="2020-11-14T20:09:27 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- zoopla.uk.my.runner.MyRunner -->
-    </test> <!-- Nopackage -->
-  </suite> <!-- Suite1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
