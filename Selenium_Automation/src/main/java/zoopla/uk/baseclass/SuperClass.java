@@ -27,16 +27,7 @@ public class SuperClass {
 		// Logger
 		logger = Logger.getLogger("PMCS"); // Added logger
 		PropertyConfigurator.configure("Log4j.properties");// Added logger
-		try {
-			configProp = new Properties();
-			FileInputStream ip = new FileInputStream(
-					System.getProperty("user.dir") + "/src/main/java/com/usa/config/Config.properties");
-			configProp.load(ip);
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+
 	}
 
 	public static void initialization() throws Throwable {
